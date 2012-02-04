@@ -2,7 +2,7 @@
 
 import os
 import wx # The GUI API
-from myWxWidgets import Ctrl
+from bcWxWidgets import Ctrl
 
 
 ###############################################################################
