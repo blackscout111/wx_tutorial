@@ -60,7 +60,7 @@ class MainWindow(wx.Frame):
         # Make the controls
         self.ctrls = []
         for i in range(2,6):
-            tmp = Ctrl.PanelCtrl(ppanel, "Ground Control", 0, 10, 0.3, i)
+            tmp = Ctrl.PanelCtrl(ppanel, "Ground Control", 0, 10, 0.1, i)
             self.ctrls.append(tmp)
             psizer.Add(tmp.sizer, 1, wx.ALIGN_CENTER | wx.EXPAND)
 
