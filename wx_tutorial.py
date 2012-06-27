@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import os
 import wx # The GUI API
 from bcWxWidgets import Ctrl
